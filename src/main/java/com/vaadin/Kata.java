@@ -1,11 +1,7 @@
 package com.vaadin;
 
-import com.vaadin.ui.Button;
-import com.vaadin.ui.HorizontalLayout;
-import com.vaadin.ui.Notification;
-import com.vaadin.ui.VerticalLayout;
+import com.vaadin.ui.*;
 import com.vaadin.ui.themes.ValoTheme;
-
 import java.util.Random;
 
 public class Kata extends VerticalLayout {
@@ -109,6 +105,7 @@ public class Kata extends VerticalLayout {
                 horizontalLayout.setSpacing(true);
             }
             addComponent(horizontalLayout);
+            setComponentAlignment(horizontalLayout, Alignment.MIDDLE_CENTER);
             setSpacing(true);
             setMargin(true);
         }
